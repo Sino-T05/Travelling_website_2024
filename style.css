@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    border: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+#home {
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    width: 100vw;
+    height: 18vh;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    box-shadow: 1px 1px 1px rgb(207, 203, 203);
+}
+.nav1{
+    width: 100%;
+    height: 70%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2{
+    width: 100%;
+    height: 30%;
+    background-color: hwb(0 100% 0% / 0.734);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;/*--------------------------------*/
+}
+
+.nav2 ul a{
+    text-decoration: none;
+    color: black;    
+}
+
+.nav2 ul li:hover{
+    color: orange;
+}
+
+.logo1{
+    background-image: url('truelogo100.png');
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navlogo {
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+#colorlogo{
+    color: rgb(224, 152, 18);
+}
+.rightnav{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box input {
+    width: 370px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    padding: 7px; /* Space inside the input */
+    font-size: 16px; /* Text size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.bottom{
+    width: 100%;
+    height: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top2 span{
+    text-align: center;
+    padding: 0px 100px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.account-name{
+    color: white;
+    font-size: 13px;
+}
+
+.loc{
+    width: 1em;
+    height: 1em;
+}
+.findus{
+    width: 5em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.toll{
+    color: white;
+    font-size: 15px;
+}
+.no{
+    color: rgba(255, 166, 0, 0.884);
+    font-size: 15px;
+    margin-left: 14px;
+}
+.main1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("MAIN1.jpg");
+    background-size: 100% 100%;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.128);
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+}
+.mainbox{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fspan{
+    color: white;
+    font-size: 40px;
+}
+.sspan{
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+.tspan{
+    width: 57%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+
+.continent{
+    width: 25%;
+    height: 100%;
+}
+.continent select{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.countries{
+    width: 25%;
+    height: 100%;
+}
+.countries select{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.budget{
+    width: 25%;
+    height: 100%;
+}
+.budget select{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.find{
+    width: 25%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tour{
+    width: 100vw;
+    height: 80vh;
+
+}
+.bestoff{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 1%;
+}
+.best1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+.best2{
+    font-size: 20px;
+}
+.main21{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        scroll-margin-bottom: 1px;
+
+}
+.main22{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 1px;
+}
+
+.img1{
+    height: 80%;
+    width: 20%;
+}
+
+.img11{
+    height: 80%;
+    width: 100%;
+    background-image: url("viet.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+
+}
+.img12{
+    height: 80%;
+    width: 100%;
+    background-image: url("egypt-3333792.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.img13{
+    height: 80%;
+    width: 100%;
+    background-image: url("brazil-4809011.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.img21{
+    height: 80%;
+    width: 100%;
+    background-image: url("Bellinzonaimg.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.img22{
+    height: 80%;
+    width: 100%;
+    background-image: url("waterfall-2301249.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.img23{
+    height: 80%;
+    width: 100%;
+    background-image: url("image100.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.viet{
+    background-color: hsla(0, 0%, 50%, 0.681);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.viet1{
+    margin-left: 10px;
+    color: white;
+    font-weight: 590;
+}
+.viet2{
+    margin-right: 10px;
+    color: white;
+    font-weight: 590;
+}
+
+#aboutus{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("main3.jpg");
+    background-size: 100% 110%;
+    margin-top: 10%;
+}
+.best11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10%;
+
+}
+.best12{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.main31{
+    width: 100vw;
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main311{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.money{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money1{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.money2{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.money3{
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    margin-top: 10px;
+    color: white;
+    font-size: 18;
+    margin-bottom: 10cm;/*can be used to maintain vertical spacing*//*to be remembered*/
+    font-weight: 400;
+    
+}
+.whychoose{
+    padding-top: 1px;
+}
+
+/*-------------Travel blogs part----------------------*/
+
+/*Alignning the box content*/
+.shop-section{
+    height: 700px;
+    /*width: 1520px;*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/*Adjesting the post box*/
+.box{
+    border: 1px solid hsl(0, 7%, 76%);
+    height: 600px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 30px;
+    border-radius: 1px;
+}
+/*Adjesting images*/
+.box-img{
+    height: 250px;
+    background-size: cover;
+}
+/*Givivng margin to box content */
+.box-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*updating .box-content because there is a div inside it which we want to edit and it will not affect the rest of the output*/
+.box-img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Alignning h2 user name of the blog post*/
+.box-content h2{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Adjesting the published date / span*/
+.box-content span{
+    margin-left: 10px;
+    color: #e23434fa;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Adjesting paragraph */
+.box-content p{
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(88, 85, 85);
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Heading h3 post title*/
+.box-content h3{
+    color: hwb(0 27% 73%);
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;/*Best font for blog post and news papersites*/
+}
+
+
+
+
+/*Now this part is supposed to be written at the beginning of our css file......
+but we're writting it at the end which is not wrong but not user friendly*/
+/*This part is the heading of our blogpage*/
+.blog-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}/*Title is done by this code*/
+
+.justforstyle{
+    height: 200px;
+    background-color: #e2e7e6;
+}
+
+/*Footer code is written from here*/
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #222f3d;
+    padding: 70px 0;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -7px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: ali 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
